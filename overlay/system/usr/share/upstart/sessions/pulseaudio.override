@@ -1,0 +1,2 @@
+# Override PulseAudio config for Halium
+env PULSE_SCRIPT=/etc/pulse/droid_card_custom.pa

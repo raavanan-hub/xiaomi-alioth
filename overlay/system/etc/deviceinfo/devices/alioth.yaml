@@ -1,0 +1,19 @@
+default:
+  Vendor: Xiaomi
+
+alioth:
+  PrettyName: Mi 11x
+  DeviceType: phone
+  GridUnit: 21
+  SupportedOrientations:
+    - Portrait
+    - Landscape
+    - InvertedLandscape
+  DoubleTapToWake:
+    - /sys/touchpanel/double_tap|1|0
+  MirAndroidPlatformClientEglFlush:
+    - "!/usr/bin/unity8,!/usr/bin/lomiri,all"
+  MirAndroidPlatformServerEglSync:
+    - false
+  MirAndroidPlatformServerPartialUpdates:
+    - true
